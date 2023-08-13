@@ -1,11 +1,7 @@
 package main
 
-import (
-	"fmt"
-	// "github.com/spf13/cobra"
-)
+import "github.com/devbyP/pt/cli/cmd"
 
 func main() {
-	fmt.Println("start timer")
-	runTryTea()
+	cmd.Execute()
 }
